@@ -1,58 +1,83 @@
-🚀 ProRoute
-ProRoute is a web-based application that helps users discover suitable career roles based on their skills and interests. It includes a login system, an interactive quiz, and intelligent role recommendations.
+🚀 ProRoute – Career Guidance Platform
+📌 Overview
 
-📌 Features
-🔐 User Authentication (Login System)
-🧠 Interactive Quiz to assess skills and preferences
-🎯 Personalized Role Recommendations
-📊 Result display based on quiz performance
-💻 Simple and user-friendly interface
+ProRoute is a web-based platform designed to help students choose the right career path based on their interests, skills, and academic background. It provides personalized recommendations, career insights, and structured learning paths to guide students toward successful professional development.
+
+🎯 Problem Statement
+
+Many students face confusion while selecting a career due to:
+
+Lack of proper guidance
+Limited awareness of career options
+Mismatch between skills and career choices
+
+ProRoute aims to bridge this gap by offering smart and personalized career guidance.
+
+💡 Features
+🧠 Aptitude & Skill Assessment
+🎯 Personalized Career Recommendations
+📊 Career Comparison Tool
+📚 Learning Path Suggestions
+🌐 User-Friendly Interface
+📈 Industry Insights & Trends
 🛠️ Tech Stack
 Frontend: HTML, CSS, JavaScript
-Backend: Node.js / Express (if used)
-Database: (Mention if used, e.g., MongoDB)
+Backend: Python / Flask (or Django if used)
+Database: MySQL / MongoDB
+Tools: VS Code, GitHub
+⚙️ Installation & Setup
+1️⃣ Clone the Repository
+git clone https://github.com/manvitha2005-rgb/proroute.git
+cd proroute
+2️⃣ Create Virtual Environment (Optional)
+python -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
+3️⃣ Install Dependencies
+pip install -r requirements.txt
+4️⃣ Run the Application
+python app.py
+5️⃣ Open in Browser
+http://127.0.0.1:5000/
 📂 Project Structure
 proroute/
-│── node_modules/        # Dependencies (ignored)
-│── public/              # Static files (CSS, JS, Images)
-│── routes/              # Application routes
-│── views/               # UI templates
-│── quizResults.json     # Quiz data/results
-│── app.js / server.js   # Main server file
-│── package.json         # Project metadata
-│── .gitignore           # Ignored files
-│── README.md            # Project documentation
-⚙️ Installation & Setup
-Clone the repository:
-git clone https://github.com/manvitha2005-rgb/proroute.git
-Navigate to the project folder:
-cd proroute
-Install dependencies:
-npm install
-Run the application:
-npm start
-Open in browser:
-http://localhost:3000
+│── static/           # CSS, JS, Images
+│── templates/        # HTML files
+│── app.py            # Main backend file
+│── requirements.txt  # Dependencies
+│── README.md         # Project documentation
 🧪 How It Works
-User logs into the system
-Attempts a quiz based on skills/interests
-System evaluates answers
-Displays recommended career roles
-User can select a preferred role
-🔐 Environment Variables
-Create a .env file if needed:
+User signs up / logs in
+Takes an aptitude or interest test
+System analyzes responses
+Generates suitable career options
+Provides learning paths and resources
+🎯 Objectives
+Help students make informed career decisions
+Reduce confusion and uncertainty
+Provide accessible and reliable career guidance
+Bridge gap between education and industry
 
-PORT=3000
 🚧 Future Enhancements
-📈 Advanced recommendation algorithm
-👤 User profile dashboard
-☁️ Deployment on cloud (AWS/Render/Vercel)
-📊 Analytics for performance tracking
+🤖 AI-based career prediction
+📱 Mobile application
+🎓 Integration with online course platforms
+💬 Chatbot for career counseling
 🤝 Contributing
-Contributions are welcome! Feel free to fork the repo and submit a pull request.
+
+Contributions are welcome!
+Feel free to fork this repo and submit a pull request.
 
 📜 License
+
 This project is licensed under the MIT License.
 
-👩‍💻 Author
-Your Name GitHub: https://github.com/manvitha2005-rgb
+🙌 Acknowledgements
+Open-source community
+Career guidance resources
+Educational platforms
+📧 Contact
+
+Your Name
+📩 your-manvithaa78@gmail.com
+
+🔗 GitHub: https://github.com/manvitha2005-rgb
