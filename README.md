@@ -54,14 +54,16 @@ Create a new branch
 Make your changes
 Submit a pull request
 📌 Future Enhancements
+
 🤖 AI-based career recommendations
+
 🎓 Personalized student dashboard
+
 📈 Skill tracking and progress analysis
+
 🌐 More career domains and data
-👩‍💻 Author
 
-Manvitha Palakurthy
-
+👩‍💻 Author:Manvitha Palakurthy
 
 📜 License
 
