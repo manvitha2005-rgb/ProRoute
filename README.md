@@ -5,10 +5,15 @@ ProRoute is a web-based platform designed to help young students choose the righ
 
 🎯 Features
 🧭 Career Path Suggestions – Explore various career options based on interests
+
 📊 Guided Decision Making – Helps students analyze and choose suitable paths
+
 📚 Resource Hub – Access learning materials and career-related information
+
 🔍 Search Functionality – Quickly find relevant careers and information
+
 💻 User-Friendly Interface – Simple and easy-to-navigate design
+
 🛠️ Tech Stack
 Frontend: HTML, CSS, JavaScript
 Backend: Python 
